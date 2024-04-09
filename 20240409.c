@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int num, num2, i;
+    int num, num2, i, tmp;
 
     scanf("%d %d", &num, &num2);
     if(num > num2) {
-        i = num;
+        tmp = num;
         num = num2;
-        num2 = i;
+        num2 = tmp;
     }
 
     for(i = num; i <= num2; i++) {
